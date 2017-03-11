@@ -30,7 +30,7 @@ let middleware = [
   thunk, // Allows action creators to return functions (not just plain objects)
 ];
 
-if (true) {
+if (_DEV_) {
   // Dev-only middleware
   middleware = [
     ...middleware,
